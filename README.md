@@ -17,7 +17,56 @@ Before you begin, ensure you have the following installed:
    ```bash
    git clone https://github.com/Oabanjo01/Stage0-task
 
+## Running the project
+
+# Project Title
+
+## Running the Project
+
+### Android
+1. Navigate to project directory:
+```bash
+cd project_directory
+```
+
+2. Get dependencies:
+```bash
+flutter pub get
+```
+
+3. Check available emulators:
+```bash
+flutter emulators
+```
+
+4. Launch emulator:
+```bash
+flutter emulators --launch <emulator_id>
+```
+
+5. Run the app:
+```bash
+flutter run
+```
+
+### iOS
+1. Open iOS project:
+```bash
+open ios/Runner.xcworkspace
+```
+
+2. Select simulator in Xcode
+
+3. Run the app:
+```bash
+flutter run
+```
+
+## Development Commands
+- Hot Reload: Press `r`
+- Hot Restart: Press `R`
+- Quit: Press `q`
 
 ## HNG backlinks
-```
+```bash
 http//hng.tech/hire/flutter-developers
